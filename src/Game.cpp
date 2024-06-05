@@ -43,7 +43,7 @@ bool Game::makeMove(int startX, int startY, int endX, int endY) {
             return true;
         }
     }
-    std::cout << "Invalid move!" << std::endl;
+    std::cout << "Invalid move!!" << std::endl;
     return false;
 }
 

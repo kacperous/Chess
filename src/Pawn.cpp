@@ -22,5 +22,5 @@ bool Pawn::isValidMove(int startX, int endX, int startY, int endY, const std::ve
             return true;
     }
 
-    return false;
+    return false; //tutaj jest jakis blad, trzeba poprawic bo zawsze daje false
 }
